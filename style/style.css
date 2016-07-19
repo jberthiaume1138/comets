@@ -1,0 +1,16 @@
+#main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#main div {
+    padding: 1em;
+}
+
+#left {
+    border-right: 1px black solid;
+}
+
+#right {
+    border-left: 1px black solid;
+}
