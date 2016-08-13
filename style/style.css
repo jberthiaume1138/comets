@@ -8,6 +8,24 @@ body {
   border: 0;
 }
 
+header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header h1 {
+    padding: 0;
+    margin-right: auto;
+}
+
+nav {
+
+}
+
+nav a {
+    margin-right: 1em;
+}
+
 main {
     margin: 0;
     padding: 0;
@@ -16,7 +34,7 @@ main {
     flex-flow: row nowrap;
     background-image: url("../images/denim.jpg");
     background-repeat: none;
-    background-size: contain;
+    background-size: cover;
 }
 
 main div {
@@ -25,10 +43,10 @@ main div {
 }
 
 #left {
-    /*border-right: 1px black solid;*/
-    border-image-source: url("../images/stitch.png");
+    border-right: 1px white solid;
+    /*border-image-source: url("../images/stitch.png");*/
 }
 
 #right {
-    border-left: 1px black solid;
+    border-left: 1px white solid;
 }
