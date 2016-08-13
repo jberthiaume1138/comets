@@ -1,14 +1,18 @@
 main {
     display: flex;
     flex-flow: row nowrap;
+    background-image: url("../images/denim.jpg");
+    background-repeat: none;
 }
 
 main div {
     padding: 1em;
+
 }
 
 #left {
-    border-right: 1px black solid;
+    /*border-right: 1px black solid;*/
+    border-image: url("../images/stitch.png") repeat;
 }
 
 #right {
