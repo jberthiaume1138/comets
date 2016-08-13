@@ -1,18 +1,32 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 main {
+    margin: 0;
+    padding: 0;
+    border:0;
     display: flex;
     flex-flow: row nowrap;
     background-image: url("../images/denim.jpg");
     background-repeat: none;
+    background-size: contain;
 }
 
 main div {
     padding: 1em;
-
+    height: 100vh;
 }
 
 #left {
     /*border-right: 1px black solid;*/
-    border-image: url("../images/stitch.png") repeat;
+    border-image-source: url("../images/stitch.png");
 }
 
 #right {
