@@ -4,7 +4,8 @@
   "description": "Portfolio website for Ashley Berthiaume, fashion designer",
   "main": "server.js",
   "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server --content-base public/src --inline --hot",
+    "dev": "node_modules/.bin/webpack-dev-server --content-base public/src/build --inline --hot",
+	"dist": "set NODE_ENV=production&& webpack -p && cp public/src/build/* public/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

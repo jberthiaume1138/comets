@@ -3,6 +3,8 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var WriteFilePlugin = require('write-file-webpack-plugin');
 
+var debug = process.env.NODE_ENV !== "production";
+
 module.exports = {
 	context: path.join(__dirname, '/public'),
 	entry: './src/js/client.js',
@@ -25,19 +27,24 @@ module.exports = {
 		]
 	},
 	output: {
-		path: path.join(__dirname, '/public/src'),
+		path: path.join(__dirname, '/public/src/build'),
 		filename: 'client.min.js'
 	},
 
-	devServer: {
-		outputPath: path.join(__dirname, '/public/src'),
-	},
+	devServer:
+		debug ? [
+			{
+				outputPath: path.join(__dirname, '/public/src/build')
+			}
+		] : [],
 
-	plugins: [
-		new ExtractTextPlugin('bundlestyle.css'),
-		new WriteFilePlugin()
-
-	]
+	plugins:
+		debug ? [
+			new ExtractTextPlugin('bundlestyle.css'),
+			new WriteFilePlugin()
+		] : [
+			new ExtractTextPlugin('bundlestyle.css')
+		]
 };
 
 // note this config is for webpack v1.x.y.z only
