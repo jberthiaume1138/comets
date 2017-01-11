@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var WriteFilePlugin = require('write-file-webpack-plugin');
 
 module.exports = {
 	context: path.join(__dirname, '/public'),
@@ -24,11 +25,18 @@ module.exports = {
 		]
 	},
 	output: {
-		path: path.join(__dirname,  '/public/src'),
+		path: path.join(__dirname, '/public/src'),
 		filename: 'client.min.js'
 	},
+
+	devServer: {
+		outputPath: path.join(__dirname, '/public/src'),
+	},
+
 	plugins: [
-		new ExtractTextPlugin('bundlestyle.css')
+		new ExtractTextPlugin('bundlestyle.css'),
+		new WriteFilePlugin()
+
 	]
 };
 
