@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './Portfolio.css';
+
 export default class Portfolio extends React.Component {
 	render() {
 		return (
-			<p>This is my portfolio</p>
+			<p className="mypara">This is my portfolio</p>
 		);
 	}
 }

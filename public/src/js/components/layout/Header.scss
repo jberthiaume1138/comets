@@ -1,0 +1,18 @@
+$primary-color: #f44242;
+
+header {
+	font-family: 'Verdana';
+
+	h1 {
+		color: #0818ce;
+		font-size: 5em;
+		background-color: #2cce08;
+	}
+
+
+}
+
+.thing {
+	color: $primary-color;
+	font-size: 1em;
+}

@@ -1,9 +1,14 @@
 import React from 'react';
 
+import './Header.scss';
+
 export default class Header extends React.Component {
 	render () {
 		return (
-            <h1>Header</h1>
+			<header>
+				<h1>HeaderText</h1>
+				<h4 className="thing">Some Sub-Header Stuff</h4>
+			</header>
 		);
 	}
 }
