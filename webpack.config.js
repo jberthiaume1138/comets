@@ -3,7 +3,7 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var WriteFilePlugin = require('write-file-webpack-plugin');
 
-var debug = process.env.NODE_ENV !== "production";
+var debug = process.env.NODE_ENV !== 'production';
 
 module.exports = {
 	context: path.join(__dirname, '/public'),
