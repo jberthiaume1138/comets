@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server --content-base public/src/build --inline --hot",
-	"dist": "set NODE_ENV=production&& webpack -p && cp public/src/build/* public/dist",
+	"dist" : "webpack --optimize-minimize --define process.env.NODE_ENV=production && cp public/src/build/* public/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "history": "^4.5.0",
     "node-sass": "^4.2.0",
+    "normalize.css": "^5.0.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-router": "^3.0.0",
