@@ -1,16 +1,16 @@
 $primary-color: #f44242;
 
-header {
+.myHeader {
 	font-family: 'Verdana';
 
-	h1 {
+	.myH1 {
 		color: #0818ce;
 		font-size: 5em;
 		background-color: #2cce08;
 	}
 }
 
-.thing {
+.myThing {
 	color: $primary-color;
 	font-size: 1em;
 }
