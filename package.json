@@ -1,7 +1,7 @@
 {
   "name": "ashley",
   "version": "1.0.0",
-  "description": "Portfolio website for Ashley Berthiaume, fashion designer",
+  "description": "React scaffolding",
   "main": "server.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server --content-base public/src/build --inline --hot",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jberthiaume1138/ashley.git"
+    "url": "git+https://github.com/jberthiaume1138/react-scaffold.git"
   },
   "author": "JAB",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jberthiaume1138/ashley/issues"
+    "url": "https://github.com/jberthiaume1138/react-scaffold/issues"
   },
-  "homepage": "https://github.com/jberthiaume1138/ashley#readme",
+  "homepage": "https://github.com/jberthiaume1138/react-scaffold#readme",
   "dependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
