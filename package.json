@@ -1,7 +1,7 @@
 {
-  "name": "ashley",
+  "name": "comets",
   "version": "1.0.0",
-  "description": "React scaffolding",
+  "description": "Comet and Company",
   "main": "server.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server --content-base public/src/build --inline --hot",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jberthiaume1138/react-scaffold.git"
+    "url": "git+https://github.com/jberthiaume1138/comets.git"
   },
   "author": "JAB",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jberthiaume1138/react-scaffold/issues"
+    "url": "https://github.com/jberthiaume1138/comets/issues"
   },
-  "homepage": "https://github.com/jberthiaume1138/react-scaffold#readme",
+  "homepage": "https://github.com/jberthiaume1138/comets#readme",
   "dependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
