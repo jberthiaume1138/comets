@@ -1,42 +1,64 @@
 var webpack = require('webpack');
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+const VENDOR_LIBS = [
+	'react', 'react-dom', 'react-router'
+];
+
 module.exports = {
-	context: path.join(__dirname, '/public'),
-	entry: './src/js/client.js',
+
+	entry: {
+		bundle: './src/client.js',
+		vendor: VENDOR_LIBS
+	},
+
+	output: {
+		path: path.join(__dirname, 'dist'),
+		filename: '[name].[hash].js'
+	},
+
 	module: {
-		loaders: [
+		rules: [
 			{
-				test: /\.(js|jsx)$/,
-				exclude: /(node_modules)/,
-				loader: 'babel-loader',
-				query: {
-					presets: ['react', 'es2015']
-				}
+				use: 'babel-loader',
+				test: /\.js$/,
+				exclude: /node_modules/
 			},
 			{
 				test: /\.(css|scss)$/,
-				loader: ExtractTextPlugin.extract(
-					'style-loader',
-					'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass'
-				)
+				use: ExtractTextPlugin.extract({
+					fallback: 'style-loader',
+					use: 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass-loader'
+				}),
+			},
+			{
+				test: /\.(jpe?g|png|gif|svg)$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: { limit: 40000 }
+					},
+					'image-webpack-loader'
+				]
 			}
 		]
 	},
-	output: {
-		path: path.join(__dirname, '/public/src/build'),
-		filename: 'client.min.js'
-	},
-	devtool: [],
 	plugins: [
-		new ExtractTextPlugin('bundlestyle.css'),
 		new webpack.DefinePlugin({
 			'process.env': {
 				'NODE_ENV': JSON.stringify('production')
 			}
+		}),
+		new webpack.optimize.CommonsChunkPlugin({
+			names: ['vendor', 'manifest']
+		}),
+		new ExtractTextPlugin({
+			filename: 'style.[chunkhash].css'
+		}),
+		new HtmlWebpackPlugin({
+			template: 'src/index.html'
 		})
 	]
 };
-
-// note this config is for webpack v1.x.y.z only
