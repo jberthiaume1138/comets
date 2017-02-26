@@ -15,6 +15,20 @@ const componentRoutes = {
 				System.import('./routes/Contact')
 					.then(module => cb(null, module.default));
 			}
+		},
+		{
+			path: 'services',
+			getComponent(location, cb) {
+				System.import('./routes/Services')
+					.then(module => cb(null, module.default));
+			}
+		},
+		{
+			path: 'about',
+			getComponent(location, cb) {
+				System.import('./routes/About')
+					.then(module => cb(null, module.default));
+			}
 		}
 	]
 

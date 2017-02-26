@@ -6,7 +6,7 @@ export default class Nav extends React.Component {
 		return (
 			<nav>
 				<Link to="about">About</Link>
-				<Link to="portfolio">Portfolio</Link>
+				<Link to="services">Services</Link>
 				<Link to="contact">Contact</Link>
 			</nav>
 		);

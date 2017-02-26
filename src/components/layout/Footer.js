@@ -1,9 +1,11 @@
 import React from 'react';
 
+import style from './style/Footer.scss';
+
 export default class Footer extends React.Component {
 	render () {
 		return (
-            <h4>Footer</h4>
+      <p>Downtown New York since 1991</p>
 		);
 	}
 }
