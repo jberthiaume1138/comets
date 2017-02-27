@@ -1,13 +1,7 @@
-$primary-color: #f44242;
-
-h1 {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
+@import '../../../style/global.scss';
 
 .banner {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: $primary-fonts;
 
 	.header {
 		color: #000000;
@@ -18,7 +12,7 @@ h1 {
 }
 
 .myThing {
-	color: $primary-color;
+	color: $gray;
 	font-size: 1em;
 }
 

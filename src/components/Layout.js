@@ -11,7 +11,9 @@ export default class Layout extends React.Component {
 			<div>
 				<Header/>
 				<Nav/>
-				{this.props.children}
+				<main>
+					{this.props.children}
+				</main>
 				<Footer/>
 			</div>
 		);
