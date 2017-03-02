@@ -7,8 +7,8 @@ export default class Nav extends React.Component {
 	render() {
 		return (
 			<nav>
-				<Link to="about" >About</Link>
-				<Link to="services">Services</Link>
+				<Link to="about" activeClassName={style.activeStyle}>About</Link>
+				<Link to="services"  activeStyle={{ color: 'green' }}>Services</Link>
 				<Link to="contact">Contact</Link>
 			</nav>
 		);
