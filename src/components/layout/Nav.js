@@ -8,8 +8,8 @@ export default class Nav extends React.Component {
 		return (
 			<nav>
 				<Link to="about" activeClassName={style.activeStyle}>About</Link>
-				<Link to="services"  activeStyle={{ color: 'green' }}>Services</Link>
-				<Link to="contact">Contact</Link>
+				<Link to="services" activeClassName={style.activeStyle} >Services</Link>
+				<Link to="contact" activeClassName={style.activeStyle}>Contact</Link>
 			</nav>
 		);
 	}
