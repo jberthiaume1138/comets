@@ -2,41 +2,22 @@ import React from 'react';
 import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 
 import Layout from './components/Layout';
+
 import Home from './routes/Home';
-
-const componentRoutes = {
-	component: Layout,
-	path: '/',
-	IndexRoute: { component: Home },
-	childRoutes: [
-		{
-			path: 'contact',
-			getComponent(location, cb) {
-				System.import('./routes/Contact')
-					.then(module => cb(null, module.default));
-			}
-		},
-		{
-			path: 'services',
-			getComponent(location, cb) {
-				System.import('./routes/Services')
-					.then(module => cb(null, module.default));
-			}
-		},
-		{
-			path: 'about',
-			getComponent(location, cb) {
-				System.import('./routes/About')
-					.then(module => cb(null, module.default));
-			}
-		}
-	]
-
-};
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Services from './routes/Services';
 
 const Routes = () => {
 	return (
-		<Router history={hashHistory} routes={componentRoutes} />
+		<Router history={hashHistory}>
+			<Route path="/" component={Layout}>
+				<IndexRoute component={Home}></IndexRoute>
+				<Route path="about" component={About}></Route>
+				<Route path="contact" component={Contact}></Route>
+				<Route path="services" component={Services}></Route>
+			</Route>
+		</Router>
 	);
 };
 
