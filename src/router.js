@@ -7,6 +7,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import Services from './routes/Services';
+import NotFound from './routes/NotFound';
 
 const Routes = () => {
 	return (
@@ -16,6 +17,7 @@ const Routes = () => {
 				<Route path="about" component={About}></Route>
 				<Route path="contact" component={Contact}></Route>
 				<Route path="services" component={Services}></Route>
+				<Route path="*" component={NotFound}></Route>
 			</Route>
 		</Router>
 	);
