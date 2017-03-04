@@ -4,7 +4,7 @@
   "description": "Comet and Company",
   "main": "server.js",
   "scripts": {
-    "clean": "rm -rf ./dist/*",
+    "clean": "rm -rf ./build/*",
     "dev": "node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
 		"build": "npm run clean && webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"

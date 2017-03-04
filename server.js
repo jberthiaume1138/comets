@@ -4,7 +4,7 @@ const util = require('util');
 
 const app = express();
 
-const staticPath = path.join(__dirname, 'dist');
+const staticPath = path.join(__dirname, 'build');
 app.use(express.static(staticPath));
 
 const port = process.env.PORT || 8080;

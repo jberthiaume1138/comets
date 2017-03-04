@@ -12,12 +12,12 @@ import NotFound from './routes/NotFound';
 const Routes = () => {
 	return (
 		<Router history={hashHistory}>
-			<Route path="/" component={Layout}>
+			<Route path='/' component={Layout}>
 				<IndexRoute component={Home}></IndexRoute>
-				<Route path="about" component={About}></Route>
-				<Route path="contact" component={Contact}></Route>
-				<Route path="services" component={Services}></Route>
-				<Route path="*" component={NotFound}></Route>
+				<Route path='about' component={About}></Route>
+				<Route path='contact' component={Contact}></Route>
+				<Route path='services' component={Services}></Route>
+				<Route path='*' component={NotFound}></Route>
 			</Route>
 		</Router>
 	);
