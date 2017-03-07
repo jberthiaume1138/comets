@@ -9,6 +9,8 @@ import Contact from './routes/Contact';
 import Services from './routes/Services';
 import NotFound from './routes/NotFound';
 
+import Networking from './routes/Networking';
+
 const Routes = () => {
 	return (
 		<Router history={hashHistory}>
@@ -16,7 +18,10 @@ const Routes = () => {
 				<IndexRoute component={Home}></IndexRoute>
 				<Route path='about' component={About}></Route>
 				<Route path='contact' component={Contact}></Route>
-				<Route path='services' component={Services}></Route>
+				<Route path='services' component={Services}>
+					<IndexRoute path='services' component={Services} />
+					<Route path='/networking' component={Networking} />
+				</Route>
 				<Route path='*' component={NotFound}></Route>
 			</Route>
 		</Router>

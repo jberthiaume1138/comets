@@ -1,19 +1,31 @@
-.banner {
-
-	.header {
-		font-family: 'Open Sans Condensed', sans-serif;
-		color: #000000;
-		font-size: 2em;
-		margin: 0 auto;
-		text-align: center;
-	}
-}
-
-.myThing {
-	color: gray;
-	font-size: 1em;
-}
-
 a {
 	text-decoration: none;
+}
+
+.banner {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: baseline;
+
+	.containerName {
+		.name {
+			font-family: 'Open Sans Condensed', sans-serif;
+			color: #000000;
+			font-size: 2em;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.subName {
+			font-size: 1em;
+			color: #333333;
+		}
+	}
+
+	.containerNav {
+		background-color: #AAAAAA;
+	}
+
+
 }
