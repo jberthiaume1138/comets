@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import Nav from './Nav';
-
 import styles from './style/Header.scss';
 
 export default class Header extends React.Component {
@@ -11,13 +9,13 @@ export default class Header extends React.Component {
 			<header className={styles.banner}>
 				<div className={styles.containerName}>
 					<Link to="/">
-						<h1 className={styles.name}>Comet</h1>
-						<p className={styles.subName}>and Company</p>
+						<h1 className={styles.name}>Comet and Company</h1>
+						<h5 className={styles.subheader}>Downtown NYC since 1991</h5>
 					</Link>
 				</div>
-				<div className={styles.containerNav}>
+				{/* <div className={styles.containerNav}>
 					<Nav/>
-				</div>
+				</div> */}
 			</header>
 		);
 	}

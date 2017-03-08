@@ -1,20 +1,28 @@
+$navFont: 'Work Sans', sans-serif;
+
 nav {
+	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
-
 	justify-content: flex-end;
+
+	position: fixed;
+
+	background-color: #0401a2;
 
  	a {
 		padding: 1em;
+		/* Typography*/
+		font-family: $navFont;
+		font-weight: 400;
+		color: white;
 	}
 
 	a:hover {
 		color: #FF0000;
 	}
-
-
 }
 
 .activeStyle {
-	color: #00FF00;
+	color: #272c6a;
 }

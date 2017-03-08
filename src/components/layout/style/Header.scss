@@ -1,31 +1,38 @@
+$primaryFont: 'Libre Franklin', sans-serif;
+
 a {
 	text-decoration: none;
 }
 
 .banner {
+	margin: 0;
+	padding: 0;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
-	align-items: baseline;
+	align-items: center;
+
+	background-color: #d3e6f5;
+
+	min-height: 400px;
 
 	.containerName {
 		.name {
-			font-family: 'Open Sans Condensed', sans-serif;
-			color: #000000;
-			font-size: 2em;
+			font-family: $primaryFont;
+			font-weight: 800;
+			color: #222222;
+			font-size: 5em;
 			margin: 0 auto;
 			text-align: center;
 		}
 
-		.subName {
+		.subheader {
+			font-family: $primaryFont;
+			font-weight: 500;
 			font-size: 1em;
-			color: #333333;
+			color: #777777;
+			margin: 0 auto;
+			text-align: center;
 		}
 	}
-
-	.containerNav {
-		background-color: #AAAAAA;
-	}
-
-
 }
