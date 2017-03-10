@@ -10,8 +10,6 @@ export default class Home extends React.Component {
 					<h3 className={styles.subText}>Some content about Comets</h3>
 					<p className={styles.text}>Comet and Company specializes in providing hardware, software, and services to implement best-quality technology solutions. Comet and Company specializes in providing hardware, software, and services to implement best-quality technology solutions. Comet and Company specializes in providing hardware, software, and services to implement best-quality technology solutions.</p>
 					<p className={styles.text}>Another line here about something</p>
-
-
 				</div>
 				<div className={[styles.inner, styles.right].join(' ')}>
 					<p className={styles.text}>Just a sample of the services we can provide:</p>

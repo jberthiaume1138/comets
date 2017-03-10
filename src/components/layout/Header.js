@@ -13,9 +13,6 @@ export default class Header extends React.Component {
 						<h5 className={styles.subheader}>Downtown NYC since 1991</h5>
 					</Link>
 				</div>
-				{/* <div className={styles.containerNav}>
-					<Nav/>
-				</div> */}
 			</header>
 		);
 	}
