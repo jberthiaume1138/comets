@@ -6,8 +6,8 @@ export default class Tile extends React.Component {
 	render() {
 		return(
 			<div>
-				Service
-
+				<h2>{this.props.title}</h2>
+				<p>{this.props.description}</p>
 			</div>
 		);
 	}
