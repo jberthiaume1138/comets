@@ -10,27 +10,26 @@ export default class Home extends React.Component {
 		this.state = {
 			services: [
 				{
+					id: 1,
 					title: 'System Administration',
 					description: 'From datacenter construction to business continuity to workstation provisioning, Comets has your systems needs covered.'
 				},
 				{
+					id: 2,
 					title: 'Networking',
 					description: 'Whether the job is configuring a LAN, wirelss network, security infrastructure etc.'
 				},
 				{
+					id: 3,
 					title: 'Software',
 					description: 'We can both help with roll out of a commerical product as well as custom develop to your needs.'
 				}
-			],
-			food: 'cheese'
+			]
 		};
 	}
 
 	render() {
-		// console.log(this.state);
-		let {services, food} = this.state;
-
-		// console.log('This is the food: ' + food);
+		let {services} = this.state;
 
 		return (
 			<div className={styles.homeContainer}>
