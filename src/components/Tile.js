@@ -4,10 +4,13 @@ import styles from './style/Tile.scss';
 
 export default class Tile extends React.Component {
 	render() {
+		// let {contents} = this.props;
+		// console.log(contents);
+		console.log(this.props.title);
 		return(
 			<div>
 				<h2>{this.props.title}</h2>
-				<p>{this.props.description}</p>
+
 			</div>
 		);
 	}
