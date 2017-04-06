@@ -2,6 +2,8 @@ import React from 'react';
 
 import Tile from './Tile';
 
+import styles from './style/TileGroup.scss';
+
 export default class TileGroup extends React.Component {
 
 	render() {
@@ -18,7 +20,7 @@ export default class TileGroup extends React.Component {
 		};
 
 		return(
-			<div>
+			<div className={styles.TileGroupWrapper}>
 				{hydrateServices()}
 			</div>
 		);

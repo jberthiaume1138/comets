@@ -17,12 +17,14 @@ export default class Home extends React.Component {
 				{
 					id: 2,
 					title: 'Networking',
-					description: 'Whether the job is configuring a LAN, wirelss network, security infrastructure etc.'
+					description: 'Whether the job is configuring a LAN, wirelss network, security infrastructure etc.',
+					imagePath: 'images/networking.svg'
 				},
 				{
 					id: 3,
 					title: 'Software',
-					description: 'We can both help with roll out of a commerical product as well as custom develop to your needs.'
+					description: 'We can both help with roll out of a commerical product as well as custom develop to your needs.',
+					imagePath: 'images/software.svg'
 				}
 			]
 		};
