@@ -16,7 +16,7 @@ export default class Layout extends React.Component {
 				<main>
 					{this.props.children}
 				</main>
-				{/* <Footer/> */}
+				<Footer/>
 			</div>
 		);
 	}

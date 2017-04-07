@@ -1,5 +1,6 @@
 .homeContainer {
-		background-color: #354d35;
+		// background-color: #354d35;
+		background-color: #0f1723;
 }
 
 .tagline {
@@ -9,8 +10,9 @@
 	.subText {
 			font-family: 'Work Sans';
 			font-size: 1.2em;
-			font-weight: 700;
+			font-weight: 600;
 			color: #EEEEEE;
+			line-height: 130%;
 			margin: 0 auto;
 			text-align: center;
 			vertical-align: middle;
@@ -23,9 +25,9 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: #cdc7b0;
-	// background-color: #354d35;
-	height: 100vh;
+	// background-color: #cdc7b0;
+	background-color: #aab1b9;
+	// height: 100vh;
 
 	.inner {
 		width: 50%;

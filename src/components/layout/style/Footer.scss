@@ -1,10 +1,30 @@
+.footerWrapper {
+	background-color: #0f1723;
+	padding: 1em;
+}
+
+.footerNav {
+	// font-size: 0.75em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: flex;
+	justify-content: center;
+
+	a {
+		font-size: 1em;
+		padding: 0 1em;
+		color: gray;
+	}
+}
+
 .footerText {
 	font-size: 0.75em;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: gray;
-
-	background-color: #b7cff3;
-
-	margin: 1em auto;
+	margin: 0 auto;
 	text-align: center;
+}
+
+.activeStyle {
+	color: #272c6a;
+	text-decoration: underline;
 }

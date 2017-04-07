@@ -9,15 +9,13 @@ nav {
 
 	position: fixed;
 
-	background-color: #d3e6f5;
-
  	a {
 		padding: 1em;
 		/* Typography*/
 		font-family: $navFont;
 		font-weight: 400;
-		// color: white;
-		color: black;
+		color: white;
+		// color: black;
 	}
 
 	a:hover {

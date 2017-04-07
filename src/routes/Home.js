@@ -11,18 +11,18 @@ export default class Home extends React.Component {
 			services: [
 				{
 					id: 1,
-					title: 'System Administration',
+					title: 'Systems Administration',
 					description: 'From datacenter construction to business continuity to workstation provisioning, Comets has your systems needs covered.'
 				},
 				{
 					id: 2,
-					title: 'Networking',
+					title: 'Networking and Security',
 					description: 'Whether the job is configuring a LAN, wirelss network, security infrastructure etc.',
 					imagePath: 'images/networking.svg'
 				},
 				{
 					id: 3,
-					title: 'Software',
+					title: 'Software Development',
 					description: 'We can both help with roll out of a commerical product as well as custom develop to your needs.',
 					imagePath: 'images/software.svg'
 				}
