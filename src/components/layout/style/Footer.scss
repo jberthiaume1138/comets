@@ -5,7 +5,7 @@
 
 .footerNav {
 	// font-size: 0.75em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	justify-content: center;
 
@@ -14,11 +14,15 @@
 		padding: 0 1em;
 		color: gray;
 	}
+
+	a:hover {
+		color: #EEEEEE;;
+	}
 }
 
 .footerText {
 	font-size: 0.75em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: gray;
 	margin: 0 auto;
 	text-align: center;

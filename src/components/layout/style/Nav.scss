@@ -1,4 +1,4 @@
-$navFont: 'Work Sans', sans-serif;
+$navFont: 'Open Sans', sans-serif;
 
 nav {
 	width: 100%;
@@ -15,7 +15,6 @@ nav {
 		font-family: $navFont;
 		font-weight: 400;
 		color: white;
-		// color: black;
 	}
 
 	a:hover {
@@ -24,6 +23,6 @@ nav {
 }
 
 .activeStyle {
-	color: #272c6a;
+	color: #BBBBBB;
 	text-decoration: underline;
 }

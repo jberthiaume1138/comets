@@ -1,4 +1,4 @@
-$primaryFont: 'Libre Franklin', sans-serif;
+$primaryFont: 'Open Sans', sans-serif;
 
 a {
 	text-decoration: none;
@@ -11,12 +11,6 @@ a {
 	flex-flow: row;
 	justify-content: center;
 	align-items: center;
-
-	// background: linear-gradient(to bottom, #0401a2 5%,#013fc4 22%,#d3e6f5 100%);
-	// background-color: #d3e6f5;
-
-	// background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ,
-	// 	url('../../../images/skyline.svg');
 	background-size: cover;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/brooklynbridge.jpg');
 	// background-position: bottom;
@@ -31,9 +25,11 @@ a {
 			font-weight: 400;
 			color: #FFFFFF;
 			font-size: 5em;
+			padding: 8px;
 			margin: 0 auto;
 			margin-top: -50px;
 			text-align: center;
+			line-height: 120%;
 		}
 
 		.subheader {

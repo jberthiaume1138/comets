@@ -14,8 +14,8 @@ export default class Tile extends React.Component {
 					{/* <img src={this.props.imagePath} className={styles.imageWrapper} /> */}
 					icon
 				</div>
-				<h2>{this.props.title}</h2>
-				<div>
+				<h2 className={styles.headlines}>{this.props.title}</h2>
+				<div className={styles.description}>
 					{this.props.description}
 				</div>
 			</div>
