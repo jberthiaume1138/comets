@@ -1,3 +1,5 @@
+$primaryFont: 'Open Sans', sans-serif;
+
 .footerWrapper {
 	background-color: #0f1723;
 	padding: 1em;
@@ -5,7 +7,7 @@
 
 .footerNav {
 	// font-size: 0.75em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $primaryFont;
 	display: flex;
 	justify-content: center;
 
@@ -20,9 +22,23 @@
 	}
 }
 
+.social {
+	// margin: 0 auto;
+	// text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+
+	img {
+		padding: 0 1em;
+	}
+}
+
 .footerText {
 	font-size: 0.75em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $primaryFont;
 	color: gray;
 	margin: 0 auto;
 	text-align: center;
