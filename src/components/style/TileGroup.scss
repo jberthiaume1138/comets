@@ -1,7 +1,12 @@
 .TileGroupWrapper {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row ;
 	justify-content: space-around;
 	align-items: flex-start;
 	padding: 1em;
+}
+
+.TileGroupWrapper div {
+	flex: 1 1 auto;
+	height: 200px;
 }

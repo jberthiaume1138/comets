@@ -4,7 +4,7 @@ a {
 	text-decoration: none;
 }
 
-.banner {
+.headerWrapper {
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -13,8 +13,7 @@ a {
 	align-items: center;
 	background-size: cover;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/brooklynbridge.jpg');
-	// background-position: bottom;
-	background-repeat: repeat-x;
+	background-position: center;
 
 	min-height: 600px;
 
@@ -36,7 +35,7 @@ a {
 			font-family: $primaryFont;
 			font-weight: 500;
 			font-size: 1em;
-			color: #EEEEEE;
+			color: #eeeeee;
 			margin: 0 auto;
 			text-align: center;
 			padding-top: 0.3em;

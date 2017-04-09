@@ -1,16 +1,21 @@
-.serviceTitle {
-	font-weight: bold;
-}
-
 .itemWrapper {
+	// flex: 1 1 auto;
 	min-width: 100px;
-	flex: 0 0 auto;
-	max-width: 250px;
+	max-width: 500px;
+	// height: 200px;
+
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
+	margin: 1em;
+	border-radius: 7px;
+	background-color: #CCCCCC;
+}
+
+.serviceTitle {
+	font-weight: bold;
 }
 
 .imageWrapper img {

@@ -12,18 +12,17 @@ export default class Home extends React.Component {
 				{
 					id: 1,
 					title: 'Systems Administration',
-					description: 'From datacenter construction to business continuity to workstation provisioning, Comets has your systems needs covered.'
+					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae'
 				},
 				{
 					id: 2,
 					title: 'Networking and Security',
-					description: 'Whether the job is configuring a LAN, wirelss network, security infrastructure etc.',
-					imagePath: 'images/networking.svg'
+					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae'
 				},
 				{
 					id: 3,
 					title: 'Software Development',
-					description: 'We can both help with roll out of a commerical product as well as custom develop to your needs.',
+					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae',
 					imagePath: 'images/software.svg'
 				}
 			]
@@ -36,7 +35,7 @@ export default class Home extends React.Component {
 		return (
 			<div className={styles.homeContainer}>
 				<div className={styles.tagline}>
-					<h3 className={styles.subText}>For over 30 years Comet and Company has been providing cutting edge high-technology solutions in and around New York City. </h3>
+					<h3 className={styles.subText}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
 				</div>
 
 				<div className={styles.servicesWrapper}>
