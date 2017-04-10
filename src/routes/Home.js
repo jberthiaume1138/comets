@@ -12,12 +12,14 @@ export default class Home extends React.Component {
 				{
 					id: 1,
 					title: 'Systems Administration',
-					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae'
+					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae',
+					imagePath: 'images/sysadmin.svg'
 				},
 				{
 					id: 2,
 					title: 'Networking and Security',
-					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae'
+					description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae',
+					imagePath: 'images/networking.svg'
 				},
 				{
 					id: 3,
