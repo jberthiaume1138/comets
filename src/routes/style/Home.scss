@@ -1,5 +1,5 @@
 .homeContainer {
-		background-color: #0f1723;
+	background-color: #0f1723;
 }
 
 .tagline {
@@ -7,49 +7,18 @@
 	width: 100%;
 
 	.subText {
-			font-family: 'Open Sans', sans-serif;
-			font-size: 1.2em;
-			font-weight: 500;
-			color: #DDDDDD;
-			line-height: 130%;
-			margin: 0 auto;
-			text-align: center;
-			vertical-align: middle;
-			padding: 1.5em 2.5em;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.2em;
+		font-weight: 500;
+		color: #dddddd;
+		line-height: 130%;
+		margin: 0 auto;
+		text-align: center;
+		vertical-align: middle;
+		padding: 1.5em 2.5em;
 	}
 }
 
 .servicesWrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 	background-color: #aab1b9;
-	// height: 100vh;
-
-	.inner {
-		width: 50%;
-		margin: 0;
-		padding: 1.5em 2.5em;
-	}
-
-	.left {
-		max-height: 300px;
-	}
-
-	.right {
-		// background-color: #90603c;
-		max-height: 300px;
-	}
-
-	.text {
-		font-family: 'Lato', sans-serif;
-		// color: black;
-		font-size: 1em;
-		font-weight: 400;
-		color: #EEEEEE;
-	}
-
-	.listWrapper {
-		list-style: none;
-	}
 }

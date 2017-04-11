@@ -12,7 +12,6 @@ export default class Tile extends React.Component {
 			<div className={styles.itemWrapper}>
 				<div className={styles.imageWrapper} >
 					<img src={this.props.imagePath} className={styles.imageWrapper} />
-					
 				</div>
 				<h2 className={styles.headlines}>{this.props.title}</h2>
 				<div className={styles.description}>
