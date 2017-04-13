@@ -1,7 +1,11 @@
 $navFont: 'Open Sans', sans-serif;
 
-nav {
+.navWrapper {
 	width: 100%;
+}
+
+nav {
+	margin: 0 auto;
 	height: 50px;
 	display: flex;
 	flex-flow: row nowrap;
