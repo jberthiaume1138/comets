@@ -1,6 +1,9 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
 .itemWrapper {
-	flex: 1 1 25%;
-	max-height: 300px;
+	flex: 1 1 300px;
 
 	display: flex;
 	flex-flow: column nowrap;
