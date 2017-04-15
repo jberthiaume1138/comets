@@ -1,17 +1,19 @@
 $navFont: 'Open Sans', sans-serif;
 
-.navWrapper {
-	width: 100%;
+nav {
 }
 
-nav {
+.navWrapper {
 	margin: 0 auto;
+	width: 100%;
 	height: 50px;
+	background-color: #0f1723;
+
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
 
-	position: fixed;
+	// position: fixed;
 
  	a {
 		padding: 1em;
