@@ -13,9 +13,9 @@ export default class Footer extends React.Component {
       <footer>
 				<div className={styles.footerWrapper}>
 					<div className={styles.footerNav}>
+						<Link to="/" >Home</Link>
 						<Link to="about" activeClassName={styles.activeStyle}>About</Link>
 						<Link to="services" activeClassName={styles.activeStyle} >Services</Link>
-						{/* <Link to="contact" activeClassName={styles.activeStyle}>Contact</Link> */}
 					</div>
 					<div className={styles.social}>
 						<a href="https://twitter.com/carlfriedberg" target="_blank"><img src={twitter} height='30' /></a>
