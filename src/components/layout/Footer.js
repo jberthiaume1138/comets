@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 import styles from './style/Footer.scss';
 
@@ -13,9 +13,9 @@ export default class Footer extends React.Component {
       <footer>
 				<div className={styles.footerWrapper}>
 					<div className={styles.footerNav}>
-						<Link to="/" >Home</Link>
-						<Link to="about" activeClassName={styles.activeStyle}>About</Link>
-						<Link to="services" activeClassName={styles.activeStyle} >Services</Link>
+						<NavLink to="/" >Home</NavLink>
+						<NavLink to="about" activeClassName={styles.activeStyle}>About</NavLink>
+						<NavLink to="services" activeClassName={styles.activeStyle} >Services</NavLink>
 					</div>
 					<div className={styles.social}>
 						<a href="https://twitter.com/carlfriedberg" target="_blank"><img src={twitter} height='30' /></a>

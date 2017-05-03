@@ -6,10 +6,11 @@ $primaryFont: 'Open Sans', sans-serif;
 }
 
 .footerNav {
-	// font-size: 0.75em;
 	font-family: $primaryFont;
 	display: flex;
+	flex-flow: row nowrap;
 	justify-content: center;
+	align-items: center;
 
 	a {
 		font-size: 1em;

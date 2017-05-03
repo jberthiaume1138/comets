@@ -39,22 +39,8 @@ export default class Home extends React.Component {
 				<div className={styles.tagline}>
 					<h3 className={styles.subText}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
 				</div>
-
 				<div className={styles.servicesWrapper}>
 					<TileGroup services={services} />
-
-					{/* <div className={[styles.inner, styles.left].join(' ')}>
-						<p className={styles.description}>Left</p>
-						</div>
-
-						<div className={[styles.inner, styles.right].join(' ')}>
-						<p className={styles.description}>Middle</p>
-						</div>
-
-						<div className={[styles.inner, styles.right].join(' ')}>
-						<p className={styles.description}>Right</p>
-					</div> */}
-
 				</div>
 			</div>
 		);

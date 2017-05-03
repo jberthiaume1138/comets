@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 import styles from './style/Nav.scss';
 
@@ -8,9 +8,9 @@ export default class Nav extends React.Component {
 		return (
 			<nav>
 				<div className={styles.navWrapper}>
-					<Link to="about" activeClassName={styles.activeStyle}>About</Link>
-					<Link to="services" activeClassName={styles.activeStyle} >Services</Link>
-					<Link to="contact" activeClassName={styles.activeStyle}>Contact</Link>
+					<NavLink to="about" activeClassName={styles.activeStyle}>About</NavLink>
+					<NavLink to="services" activeClassName={styles.activeStyle} >Services</NavLink>
+					<NavLink to="contact" activeClassName={styles.activeStyle}>Contact</NavLink>
 				</div>
 			</nav>
 		);
