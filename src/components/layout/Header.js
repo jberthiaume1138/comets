@@ -6,7 +6,7 @@ import styles from './style/Header.scss';
 export default class Header extends React.Component {
 	render () {
 		return (
-			<header>
+			// <header>
 				<div className={styles.headerWrapper}>
 					<div className={styles.containerName}>
 						<Link to="/">
@@ -15,7 +15,7 @@ export default class Header extends React.Component {
 						</Link>
 					</div>
 				</div>
-			</header>
+			// </header>
 		);
 	}
 }
