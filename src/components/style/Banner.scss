@@ -1,27 +1,12 @@
 $primaryFont: 'Open Sans', sans-serif;
 
-a {
-	text-decoration: none;
-}
-
-header {
-	width: 100%;
-	// padding-top: 150px;
-}
-
-.headerWrapper {
+.bannerWrapper {
 	margin: 0 auto;
 	padding: 0;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
 	align-items: center;
-
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/brooklynbridge.jpg');
-	background-position: center;
-
 	min-height: 600px;
 	// max-width: 1300px;
 
@@ -34,7 +19,7 @@ header {
 			font-size: 5em;
 			padding: 8px;
 			margin: 0 auto;
-			margin-top: -50px;
+			// margin-top: -50px;
 			text-align: center;
 			line-height: 120%;
 		}

@@ -1,13 +1,17 @@
 $navFont: 'Open Sans', sans-serif;
 
 nav {
+	display: flex;
+	flex-flow: row;
 }
 
 .navWrapper {
 	margin: 0 auto;
 	width: 100%;
 	height: 50px;
-	background-color: #0f1723;
+	// background-color: #0f1723;
+	// background-color: rgba(15, 23, 34, 0.6);
+	// background-color: rgba(0, 0, 0, 0.3	);
 
 	display: flex;
 	flex-flow: row nowrap;

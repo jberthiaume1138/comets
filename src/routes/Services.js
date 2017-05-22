@@ -6,7 +6,7 @@ export default class Services extends React.Component {
 	render() {
 		return (
 			<div>
-				<p className={styles.myservies}>Comets.com believes that proper system administration reduces the need for ongoing support. If a problem occurs, it must be fixed; but the underlying cause must be understood, and changes implemented to reduce or eliminate recurrence of the problem. Comets.com encourages the use of the perl scripting language to implement system administration. Perl is available for Windows, VMS, Unix, Linux, and many other systems (including the Macintosh). See www.perl.com</p>
+				<p className={styles.myservices}>Comets.com believes that proper system administration reduces the need for ongoing support. If a problem occurs, it must be fixed; but the underlying cause must be understood, and changes implemented to reduce or eliminate recurrence of the problem. Comets.com encourages the use of the perl scripting language to implement system administration. Perl is available for Windows, VMS, Unix, Linux, and many other systems (including the Macintosh). See www.perl.com</p>
 				<div>
 					{this.props.children}
 				</div>

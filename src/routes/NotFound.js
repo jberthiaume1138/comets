@@ -5,7 +5,7 @@ export default class NotFound extends React.Component {
 		return (
 			<div>
 				<h2>Error 404 !!!</h2>
-				<p>Oops, there is nothing to see here.</p>
+				<h3>There is nothing to see here.</h3>
 			</div>
 		);
 	}

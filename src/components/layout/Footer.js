@@ -10,7 +10,7 @@ import email from '../../images/email-icon.svg';
 export default class Footer extends React.Component {
 	render () {
 		return (
-      <footer>
+      <footer id="contact">
 				<div className={styles.footerWrapper}>
 					<div className={styles.footerNav}>
 						<NavLink to="/" >Home</NavLink>

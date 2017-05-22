@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './style/Home.scss';
 
+import Banner from '../components/Banner';
 import TileGroup from '../components/TileGroup';
 
 export default class Home extends React.Component {
@@ -36,6 +37,7 @@ export default class Home extends React.Component {
 
 		return (
 			<div className={styles.homeContainer}>
+				<Banner />
 				<div className={styles.tagline}>
 					<h3 className={styles.subText}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
 				</div>

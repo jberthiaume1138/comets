@@ -1,0 +1,82 @@
+$primaryFont: 'Open Sans', sans-serif;
+
+.titleWrapper {
+	padding: 0 2em;
+}
+
+.name {
+	text-align: left;
+	/* Typography*/
+	font-family: $primaryFont;
+	font-weight: 400;
+	color: white;
+	font-size: 1.50em;
+}
+
+// .titleWrapper {
+// 	margin: 0 auto;
+// 	padding: 0;
+// 	display: flex;
+// 	flex-flow: row;
+// 	justify-content: center;
+// 	align-items: flex-start;
+//
+// 	// background-size: cover;
+// 	// background-repeat: no-repeat;
+// 	// background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/brooklynbridge.jpg');
+// 	// background-position: center;
+//
+// 	min-height: 600px;
+// 	// max-width: 1300px;
+//
+
+// header {
+// 	width: 100%;
+// 	// padding-top: 150px;
+//
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/brooklynbridge.jpg');
+// 	background-position: center;
+// }
+//
+//
+// 	.containerName {
+// 		width: 100%;
+// 		.name {
+// 			max-width: 1280px;
+// 			font-family: $primaryFont;
+// 			font-weight: 400;
+// 			color: #FFFFFF;
+// 			font-size: 4em;
+// 			padding: 8px;
+// 			margin: 0 auto;
+// 			// margin-top: -50px;
+// 			text-align: center;
+// 			line-height: 120%;
+// 		}
+//
+// 		.subheader {
+// 			font-family: $primaryFont;
+// 			font-weight: 500;
+// 			font-size: 1em;
+// 			color: #eeeeee;
+// 			margin: 0 auto;
+// 			text-align: center;
+// 			padding-top: 0.3em;
+// 		}
+// 	}
+// }
+//
+// .aboutText {
+// 	width: 600px;
+// 	height: 300px;
+// 	padding: 1em;
+// 	margin: 1em;
+// 	background-color: rgba(0, 0, 0, 0.75);
+// 	color: white;
+// 	font-family: $primaryFont;
+// 	font-size: 1.25em;
+// }
+//
+//

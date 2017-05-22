@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import {BrowserRouter as Router} from 'react-router-dom';
 
+import NotFound from './routes/NotFound';
+
 // import Router from './Router';
 
 import App from './components/App';
@@ -18,7 +20,7 @@ import App from './components/App';
 ReactDOM.render(
 	(
 		<Router>
-			<App />
+			<App/>
 		</Router>
 	),
 	document.getElementById('root'));
