@@ -17,8 +17,8 @@ $primaryFont: 'Open Sans', sans-serif;
 			font-family: $primaryFont;
 			font-weight: 400;
 			color: #FFFFFF;
-			font-size: 6em;
-			padding: 0 1em;
+			font-size: 7em;
+			padding: 0 16px;
 			margin: 0 auto;
 			text-align: center;
 			line-height: 120%;
@@ -43,7 +43,7 @@ $primaryFont: 'Open Sans', sans-serif;
 	margin-bottom: 4em;
 	padding: 1em;
 	border-radius: 7px;
-	background-color: rgba(0, 0, 0, 0.5	);
+	background-color: rgba(0, 0, 0, 0.6);
 	max-width: 90%;
 	font-size: 1em;
 	display: flex;
@@ -57,19 +57,15 @@ $primaryFont: 'Open Sans', sans-serif;
 		font-weight: 500;
 		color: #dddddd;
 		line-height: 130%;
-		// margin: 0 auto;
 		text-align: center;
-		// vertical-align: middle;
 		padding: 1.5em 3.5em;
 		max-width: 800px;
 	}
-}
 
-.downArrow {
-	// margin: 0 auto;
-	// text-align: center;
-	color: white;
-	font-size: 2em;
-	display: inline-block;
-	transform: rotate(90deg);
+	.downArrow {
+		color: white;
+		font-size: 2em;
+		display: inline-block;
+		transform: rotate(90deg);
+	}
 }

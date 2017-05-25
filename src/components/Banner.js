@@ -10,8 +10,8 @@ export default class Banner extends React.Component {
 				<div className={styles.containerName}>
 					<Link to="/">
 						<h1 className={styles.name}>Comet and Company</h1>
-						<h5 className={styles.subheader}>Downtown NYC since 1991</h5>
 					</Link>
+					<h5 className={styles.subheader}>Downtown NYC since 1991</h5>
         </div>
         <div className={styles.containerTagline}>
           <h3 className={styles.tagline}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
