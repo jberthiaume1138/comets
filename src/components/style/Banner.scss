@@ -27,7 +27,7 @@ $primaryFont: 'Open Sans', sans-serif;
 		.subheader {
 			font-family: $primaryFont;
 			font-weight: 500;
-			font-size: 1em;
+			font-size: 1.5em;
 			color: #eeeeee;
 			margin: 0 auto;
 			text-align: center;
@@ -37,7 +37,6 @@ $primaryFont: 'Open Sans', sans-serif;
 }
 
 .containerTagline {
-	align-self: flex-end;
 	margin: 0 auto;
 	margin-top: auto;
 	margin-bottom: 4em;
@@ -45,7 +44,7 @@ $primaryFont: 'Open Sans', sans-serif;
 	border-radius: 7px;
 	background-color: rgba(0, 0, 0, 0.6);
 	max-width: 90%;
-	font-size: 1em;
+	font-size: 1.5em;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -62,10 +61,11 @@ $primaryFont: 'Open Sans', sans-serif;
 		max-width: 800px;
 	}
 
-	.downArrow {
-		color: white;
-		font-size: 2em;
-		display: inline-block;
-		transform: rotate(90deg);
-	}
+}
+
+.downArrow {
+	color: white;
+	font-size: 2em;
+	display: inline-block;
+	transform: rotate(90deg);
 }
