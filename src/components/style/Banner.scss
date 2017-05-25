@@ -1,24 +1,25 @@
 $primaryFont: 'Open Sans', sans-serif;
 
 .bannerWrapper {
+	margin: 0;
 	padding: 0;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	// min-height: 600px;
 	height: 100vh;
 
 	.containerName {
+		margin-top: auto;
+
 		.name {
 			max-width: 1280px;
 			font-family: $primaryFont;
 			font-weight: 400;
 			color: #FFFFFF;
-			font-size: 5em;
-			padding: 8px;
+			font-size: 6em;
+			padding: 0 1em;
 			margin: 0 auto;
-			// margin-top: -50px;
 			text-align: center;
 			line-height: 120%;
 		}
@@ -30,38 +31,45 @@ $primaryFont: 'Open Sans', sans-serif;
 			color: #eeeeee;
 			margin: 0 auto;
 			text-align: center;
-			padding-top: 0.3em;
+			padding-top: 0.75em;
 		}
 	}
 }
 
 .containerTagline {
-	align-content: flex-end;
+	align-self: flex-end;
 	margin: 0 auto;
+	margin-top: auto;
+	margin-bottom: 4em;
 	padding: 1em;
 	border-radius: 7px;
 	background-color: rgba(0, 0, 0, 0.5	);
 	max-width: 90%;
 	font-size: 1em;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+
+	.tagline {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.2em;
+		font-weight: 500;
+		color: #dddddd;
+		line-height: 130%;
+		// margin: 0 auto;
+		text-align: center;
+		// vertical-align: middle;
+		padding: 1.5em 3.5em;
+		max-width: 800px;
+	}
 }
 
-.subText {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2em;
-	font-weight: 500;
-	color: #dddddd;
-	line-height: 130%;
-	margin: 0 auto;
-	text-align: center;
-	vertical-align: middle;
-	padding: 1.5em 3.5em;
+.downArrow {
+	// margin: 0 auto;
+	// text-align: center;
+	color: white;
+	font-size: 2em;
+	display: inline-block;
+	transform: rotate(90deg);
 }
-
-// .downArrow {
-// 	margin: 0 auto;
-// 	text-align: center;
-// 	color: white;
-// 	font-size: 3em;
-// 	display: inline-block;
-// 	transform: rotate(90deg);
-// }

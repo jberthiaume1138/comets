@@ -14,9 +14,9 @@ export default class Banner extends React.Component {
 					</Link>
         </div>
         <div className={styles.containerTagline}>
-          <h3 className={styles.subText}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
+          <h3 className={styles.tagline}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
+					<span className={styles.downArrow}>></span>
         </div>
-          {/* <span className={styles.downArrow}>></span> */}
 			</div>
 		);
 	}
