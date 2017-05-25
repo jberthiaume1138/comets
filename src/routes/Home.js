@@ -38,9 +38,7 @@ export default class Home extends React.Component {
 		return (
 			<div className={styles.homeContainer}>
 				<Banner />
-				<div className={styles.tagline}>
-					<h3 className={styles.subText}>For over 25 years Comet and Company has been providing cutting edge technology solutions in and around New York City. </h3>
-				</div>
+				
 				<div className={styles.servicesWrapper}>
 					<TileGroup services={services} />
 				</div>
