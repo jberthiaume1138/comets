@@ -5,17 +5,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 
 import NotFound from './routes/NotFound';
 
-// import Router from './Router';
-
 import App from './components/App';
-//
-// class App extends React.Component {
-// 	render() {
-// 		return (
-// 			<Router />
-// 		);
-// 	}
-// }
 
 ReactDOM.render(
 	(

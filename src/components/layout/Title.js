@@ -8,7 +8,7 @@ export default class Header extends React.Component {
 		return (
 			<div className={styles.titleWrapper}>
 				<Link to="/">
-					<h1 className={styles.name}>Comets</h1>
+					<h1 className={styles.name}>Comet and Company</h1>
 				</Link>
 			</div>
 		);
