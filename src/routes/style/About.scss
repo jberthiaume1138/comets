@@ -12,28 +12,34 @@ $primaryFont: 'Open Sans', sans-serif;
 	margin: 2em;
 }
 
-.sideThing {
+.sideBar {
 	background-color: white;
 }
 
-@media (max-width: 500px) {
-	.sideThing {
+@media (max-width: 768px) {
+	.sideBar {
 		display: none;
 	}
 }
 
+.aboutHeader {
+
+}
+
 .aboutContainer {
-	background-color: rgba(0, 0, 0, 0.6);
-	// background-color: #aab1b9;
-	height: 400px;
-	width: 500px;
-	padding: 2em;
+	background-color: rgba(0, 0, 0, 0.7);
+	min-width: 600px;
+	max-width: 768px;
+	padding: 1em;
 }
 
 .aboutContainer h2 {
+		background-color: #0f1723;
 	font-family: $primaryFont;
 	font-size: 2em;
 	color: white;
+	text-align: center;
+	padding-bottom: 16px;
 }
 
 .about {
