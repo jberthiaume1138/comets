@@ -24,6 +24,12 @@ $primaryFont: 'Open Sans', sans-serif;
 			line-height: 120%;
 		}
 
+		@media (max-width: 768px) {
+			.name {
+				font-size: 3.5em;
+			}
+		}
+
 		.subheader {
 			font-family: $primaryFont;
 			font-weight: 500;
