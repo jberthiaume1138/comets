@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './style/About.scss';
 
+import Sidebar from '../components/Sidebar';
 import carl from '../images/carl.jpg';
 
 export default class About extends React.Component {
@@ -21,8 +22,7 @@ export default class About extends React.Component {
 					I have a PhD in experimental high-energy particle physics. I was a member of the Berkeley/Stanford collaboration which discovered several new particles, eventually gaining two Nobel prizes (one for Bert Richter, for the charmed PSI; one for Martin Perl for the TAU LEPTON). For the last 30 years, I've been involved in helping many companies solve technology problems, primarily in the IT area. Those companies, large and small, have been in finance, banking, pharmaceuticals, media, and related areas. I was involved with the New York Software Industry Association (NYSIA), where I led a special interest group in wireless technology and applications. I love to solve problems.</p>
 				</div>
 				<div className={styles.sideBar}>
-					<h3>sidebar</h3>
-					<p>pull in component</p>
+					<Sidebar />
 				</div>
 			</div>
 		);

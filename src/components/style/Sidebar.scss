@@ -1,0 +1,21 @@
+$primaryFont: 'Open Sans', sans-serif;
+
+.sidebarWrapper {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 1em;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebarWrapper h4 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: 400;
+	color: white;
+}
+
+.sidebarWrapper p {
+	text-align: center;
+	font-size: 1em;
+	color: white;
+}
