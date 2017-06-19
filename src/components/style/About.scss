@@ -1,0 +1,52 @@
+$primaryFont: 'Open Sans', sans-serif;
+
+.aboutWrapper {
+	// height: 100vh;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.aboutContainer {
+	margin: 0 16px;
+	background-color: rgba(0, 0, 0, 0.7);
+	min-width: 600px;
+	max-width: 768px;
+
+	.aboutHeader {
+		// background-color: #0f1723;
+		font-family: $primaryFont;
+		font-size: 1.5em;
+		color: white;
+		text-align: center;
+		padding: 8px;
+	}
+
+	.aboutContent {
+		padding: 16px;
+
+		.about {
+			font-size: 1em;
+			color: white;
+			max-width: 1280px;
+			font-family: $primaryFont;
+			font-weight: 400;
+			font-size: 1.25em;
+			padding: 0 16px;
+			margin: 0 auto;
+			text-align: center;
+			line-height: 120%;
+		}
+	}
+}
+
+
+
+
+
+@media (max-width: 768px) {
+	.sidebarContainer {
+		display: none;
+	}
+}

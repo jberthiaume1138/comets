@@ -5,9 +5,9 @@ $primaryFont: 'Open Sans', sans-serif;
 	padding: 0;
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	height: 100vh;
+	height: 100%;
 
 	.containerName {
 		margin-top: auto;
@@ -19,7 +19,7 @@ $primaryFont: 'Open Sans', sans-serif;
 			color: #FFFFFF;
 			font-size: 7em;
 			padding: 0 16px;
-			margin: 0 auto; 
+			margin: 0 auto;
 			text-align: center;
 			line-height: 120%;
 		}

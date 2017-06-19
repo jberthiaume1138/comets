@@ -38,10 +38,10 @@ export default class Home extends React.Component {
 		return (
 			<div className={styles.homeContainer}>
 				<Banner />
-				
-				<div className={styles.servicesWrapper}>
+
+				{/* <div className={styles.servicesWrapper}>
 					<TileGroup services={services} />
-				</div>
+				</div> */}
 			</div>
 		);
 	}
