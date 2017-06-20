@@ -1,27 +1,39 @@
 $primaryFont: 'Open Sans', sans-serif;
 
 .aboutWrapper {
-	// height: 100vh;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: flex-start;
-}
+	height: 100vh;
+	// display: flex;
+	// flex-flow: row nowrap;
+	// justify-content: center;
+	// align-items: flex-start;
+	// background-color: #0f1723;
 
-.aboutContainer {
-	margin: 0 16px;
-	background-color: rgba(0, 0, 0, 0.7);
-	min-width: 600px;
-	max-width: 768px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('../../images/fifthave.jpg');
+	background-position: top;
+	background-attachment: fixed;
 
 	.aboutHeader {
-		// background-color: #0f1723;
+		background-color: #0f1723;
+		width: 100%;
 		font-family: $primaryFont;
 		font-size: 1.5em;
 		color: white;
 		text-align: center;
-		padding: 8px;
+		padding: 64px;
 	}
+
+}
+
+
+.aboutContainer {
+	margin: 0 16px;
+	// background-color: rgba(0, 0, 0, 0.7);
+	min-width: 600px;
+	max-width: 768px;
+
+
 
 	.aboutContent {
 		padding: 16px;

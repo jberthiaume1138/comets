@@ -12,7 +12,7 @@ a {
 }
 
 body {
-	background-color: #cccccc;
+	// background-color: #cccccc;
 	width: 100%;
 }
 
@@ -36,13 +36,14 @@ header {
 
 main {
 	width: inherit;
-	height: 100vh;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	align-items: center;
+	// height: 100vh;
+	// display: flex;
+	// flex-flow: column nowrap;
+	// justify-content: center;
+	// align-items: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('../../images/brooklynbridge.jpg');
 	background-position: top;
+	background-attachment: fixed;
 }

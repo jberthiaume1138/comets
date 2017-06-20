@@ -8,9 +8,9 @@ export default class Nav extends React.Component {
 		return (
 			<nav>
 				<div className={styles.navWrapper}>
-					<NavLink to="/about" activeClassName={styles.activeStyle}>About</NavLink>
+					<a href="#about" activeClassName={styles.activeStyle}>About</a>
 					<NavLink to="/services" activeClassName={styles.activeStyle} >Services</NavLink>
-					<NavLink to="/contact" activeClassName={styles.activeStyle}>Contact</NavLink>
+					<a href="#footer" activeClassName={styles.activeStyle}>Contact</a>
 				</div>
 			</nav>
 		);
