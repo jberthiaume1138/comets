@@ -56,9 +56,9 @@ export default class App extends React.Component {
 						<Route path='/services' component={Services}/>
 						<Route component={NotFound}/>
 					</Switch>
-					<div>
+					<section>
 						<About />
-					</div>
+					</section>
 				</main>
 				<TileGroup services={services} />
 				<Footer />

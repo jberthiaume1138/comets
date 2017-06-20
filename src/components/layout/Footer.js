@@ -13,8 +13,8 @@ export default class Footer extends React.Component {
       <footer id="footer">
 				<div className={styles.footerWrapper}>
 					<div className={styles.footerNav}>
-						<NavLink to="/" >Home</NavLink>
-						<NavLink to="about" activeClassName={styles.activeStyle}>About</NavLink>
+						<a href="#App" >Home</a>
+						<a href="#about" activeClassName={styles.activeStyle}>About</a>
 						<NavLink to="services" activeClassName={styles.activeStyle} >Services</NavLink>
 					</div>
 					<div className={styles.social}>

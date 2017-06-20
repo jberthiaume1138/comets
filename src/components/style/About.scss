@@ -2,12 +2,6 @@ $primaryFont: 'Open Sans', sans-serif;
 
 .aboutWrapper {
 	height: 100vh;
-	// display: flex;
-	// flex-flow: row nowrap;
-	// justify-content: center;
-	// align-items: flex-start;
-	// background-color: #0f1723;
-
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('../../images/fifthave.jpg');
@@ -23,20 +17,27 @@ $primaryFont: 'Open Sans', sans-serif;
 		text-align: center;
 		padding: 64px;
 	}
-
 }
 
-
 .aboutContainer {
-	margin: 0 16px;
-	// background-color: rgba(0, 0, 0, 0.7);
+	margin: 0 auto;
+	margin-top: 32px;
 	min-width: 600px;
 	max-width: 768px;
+	padding: 16px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
 
+	.aboutImage {
 
+	}
 
 	.aboutContent {
 		padding: 16px;
+
 
 		.about {
 			font-size: 1em;
@@ -52,10 +53,6 @@ $primaryFont: 'Open Sans', sans-serif;
 		}
 	}
 }
-
-
-
-
 
 @media (max-width: 768px) {
 	.sidebarContainer {
