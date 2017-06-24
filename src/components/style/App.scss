@@ -43,7 +43,11 @@ main {
 	// align-items: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('../../images/brooklynbridge.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('../../images/brooklynbridge.jpg');
 	background-position: top;
 	background-attachment: fixed;
+}
+
+.tileGroup {
+
 }

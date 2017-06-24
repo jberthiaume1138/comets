@@ -21,7 +21,17 @@ export default class TileGroup extends React.Component {
 
 		return(
 			<div className={styles.TileGroupWrapper}>
-				{hydrateServices()}
+				<div className={styles.TileGroupHeader}>
+					<h3>Our Services Include:</h3>
+				</div>
+				<div className={styles.TileGroupContent}>
+					{hydrateServices()}
+				</div>
+				<div className={styles.TileGroupContent}>
+					<p>
+						Click here for more services. Some more text here about things that are useful.
+					</p>
+				</div>
 			</div>
 		);
 	}

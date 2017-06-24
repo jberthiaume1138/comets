@@ -4,7 +4,7 @@ $primaryFont: 'Open Sans', sans-serif;
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('../../images/fifthave.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../images/taxi.jpg');
 	background-position: top;
 	background-attachment: fixed;
 
@@ -16,42 +16,53 @@ $primaryFont: 'Open Sans', sans-serif;
 		color: white;
 		text-align: center;
 		padding: 64px;
+
+		p {
+			margin: 0 auto;
+			max-width: 75%;
+			text-align: justify;
+		}
 	}
 }
 
 .aboutContainer {
 	margin: 0 auto;
-	margin-top: 32px;
-	min-width: 600px;
-	max-width: 768px;
+	margin-top: 40px;
+	// min-width: 600px;
+	max-width: 75%;
 	padding: 16px;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column;
 	justify-content: center;
 	align-items: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
 
-	.aboutImage {
-
-	}
-
 	.aboutContent {
 		padding: 16px;
+		max-width: 900px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: flex-start;
 
+		.aboutImage {
+			padding: 16px;
+			flex: 0 1 260px;
+		}
 
 		.about {
-			font-size: 1em;
-			color: white;
-			max-width: 1280px;
-			font-family: $primaryFont;
-			font-weight: 400;
-			font-size: 1.25em;
-			padding: 0 16px;
-			margin: 0 auto;
-			text-align: center;
-			line-height: 120%;
+			flex: 0 1 550px;
+			padding: 16px;
 		}
 	}
+}
+
+.aboutText {
+	color: white;
+	font-family: $primaryFont;
+	font-size: 1.25em;
+	text-align: left;
+	line-height: 140%;
 }
 
 @media (max-width: 768px) {

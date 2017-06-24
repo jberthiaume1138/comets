@@ -1,7 +1,28 @@
+$primaryFont: 'Open Sans', sans-serif;
+
 .TileGroupWrapper {
+	background-repeat: no-repeat;
+	background-image: url('../../images/bwskyline.jpg');
+	// background-position: top;
+	// background-attachment: fixed;
+}
+
+.TileGroupHeader {
+	font-family: $primaryFont;
+	padding: 16px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.TileGroupContent {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: flex-start;
-	padding: 1em;
+	padding: 1.5em;
+}
+
+.TileGroupContent p {
+	font-family: $primaryFont;
+	color: white;
 }
